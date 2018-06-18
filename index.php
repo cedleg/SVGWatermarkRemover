@@ -24,7 +24,7 @@ $_SESSION['token'] = $token;
       <input type="file" size="70" name="filesToUpload[]" id="filesToUpload" multiple="multiple"/>
       <br>
       <br>
-      <input type="submit" value="Upload File" name="submit"/>
+      <input type="submit" value="Upload Files" name="submit"/>
       <input type="hidden" name="token" id="token" value="<?php echo $token; ?>" />
     </form>
 
