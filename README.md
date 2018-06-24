@@ -13,7 +13,16 @@ cd SVGWatermarkRemover
 mkdir output
 sudo chmod -R 777 output
 ```
+if you want to install bootstrap
+```
+npm install
+```
+
 ### For apache2 users
+By default, php is set with 20 max file uploads and 2MB max filesize.
+<br>
+In order to modifiy these settings, you have to modify php.ini this way :
+
 ##### Edit /etc/php/7.0/apache2/php.ini to change these values
 ```
 upload_max_filesize = 256M

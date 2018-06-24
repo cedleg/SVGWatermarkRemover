@@ -1,0 +1,22 @@
+{
+  "name": "svgwatermarkremover",
+  "version": "1.0.0",
+  "description": "SVG watermark remover for starUML 3.0 svg exports",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sldevand/SVGWatermarkRemover.git"
+  },
+  "author": "Sébastien Lorrain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sldevand/SVGWatermarkRemover/issues"
+  },
+  "homepage": "https://github.com/sldevand/SVGWatermarkRemover#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
