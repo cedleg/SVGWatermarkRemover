@@ -1,6 +1,7 @@
 SVGWatermarkRemover
 =====
-**SVGWatermarkRemover** is an SVG watermark remover for starUML 3.0 svg exports.
+Seb's app with inkscape PNG output
+
 ## Prerequisites
 * PHP 5.6 and above
 * apache2 server
@@ -8,7 +9,7 @@ SVGWatermarkRemover
 ## Installation
 Clone this repository into your /var/www folder (or your favorite working folder)
 ```
-git clone https://github.com/sldevand/SVGWatermarkRemover.git
+git clone https://github.com/cedleg/SVGWatermarkRemover.git
 cd SVGWatermarkRemover
 mkdir output
 sudo chmod -R 777 output
@@ -41,3 +42,7 @@ http://localhost/SVGWatermarkRemover/
 * Click on upload button.
 * You have the result inside the browser.
 * You can copy your files from /var/www/output folder.
+
+### Origin
+[Sébastien Lorrain](https://github.com/sldevand)
+

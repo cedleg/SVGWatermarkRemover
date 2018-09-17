@@ -26,7 +26,7 @@ class SVGManager
           self::removeWatermark($tmpFile);
           self::saveSVG($targetFile);
           self::displaySVG($targetFile);
-
+          self::inkscapePngConverter($targetFile);
         }
       }
     }
@@ -52,5 +52,12 @@ class SVGManager
   {
     $resultSvg = file_get_contents($targetFile);
     print_r($resultSvg);
+  }
+  
+  public static function inkscapePngConverter($targetFile)
+  {
+    $command = 'inkscape -f "'.$targetFile.'" -e "'.$targetFile.'.png"';
+    exec($command, $status);
+    return $status[0];
   }
 }
